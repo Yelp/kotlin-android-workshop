@@ -1,0 +1,6 @@
+.*
+*.iml
+/captures
+/local.properties
+
+build/

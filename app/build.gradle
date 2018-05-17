@@ -1,0 +1,7 @@
+apply from:'../app.gradle'
+
+android {
+    defaultConfig {
+        applicationId "demo.my.myapplication"
+    }
+}
