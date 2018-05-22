@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KDemo2</string>
+    <string name="title_activity_main">KDemo2</string>
+    <string name="greeting">Hello World!</string>
+</resources>

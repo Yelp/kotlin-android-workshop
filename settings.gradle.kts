@@ -1,5 +1,6 @@
 include(":app",
         ":app1",
+        ":app2",
         ":common")
 
 pluginManagement {

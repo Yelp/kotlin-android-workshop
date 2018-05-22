@@ -1,3 +1,7 @@
+// !!! COPY ME INTO A SCRATCH FILE FIRST !!!
+// !!! COPY ME INTO A SCRATCH FILE FIRST !!!
+// !!! COPY ME INTO A SCRATCH FILE FIRST !!!
+
 open class Parent(arg: Unit = println("Parent primary default argument")) {
     private val a = println("Parent.a")
 
