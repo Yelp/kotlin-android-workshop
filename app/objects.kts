@@ -18,8 +18,6 @@ class BizRepo {
     companion object : Factory<BizRepo> by Provider({ BizRepo() })
 }
 
-
-
 UserRepo.get() // returns the real repo
 BizRepo.get()  // returns the real repo
 UserRepo.mock = mock(UserRepo)
