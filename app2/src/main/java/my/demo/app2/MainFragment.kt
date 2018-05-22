@@ -1,4 +1,4 @@
-package my.demo.app1
+package my.demo.app2
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -22,5 +22,4 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         hiWorld.text = getString(R.string.greeting)
     }
-
 }
