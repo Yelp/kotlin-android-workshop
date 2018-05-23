@@ -1,2 +1,2 @@
 plugins { id("com.android.library") }
-apply { from("../app.gradle") }
+apply { from("$rootDir/lib.gradle") }

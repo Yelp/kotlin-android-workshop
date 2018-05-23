@@ -1,5 +1,5 @@
 plugins { id("com.android.application") }
-apply { from("../app.gradle") }
+apply { from("$rootDir/app.gradle") }
 
 android {
     defaultConfig {

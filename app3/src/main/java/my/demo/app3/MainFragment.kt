@@ -22,6 +22,7 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         hiWorld.text = getString(R.string.greeting)
+        searchBar.setIconifiedByDefault(false)
         searchBar.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextChange(newText: String?) = true
             override fun onQueryTextSubmit(query: String?) = true.also {

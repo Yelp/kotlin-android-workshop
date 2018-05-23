@@ -2,4 +2,5 @@
     <string name="app_name">KDemo3</string>
     <string name="title_activity_main">KDemo3</string>
     <string name="greeting">Hello World!</string>
+    <string name="query_hint">cafe, dinner</string>
 </resources>
