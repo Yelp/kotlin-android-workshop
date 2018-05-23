@@ -1,4 +1,4 @@
-package my.demo.app4
+package my.demo.app5
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.content_main.*
-import my.demo.app4.model.BusinessRepo
+import my.demo.app5.model.BusinessRepo
 
 class MainFragment : Fragment() {
     companion object {
