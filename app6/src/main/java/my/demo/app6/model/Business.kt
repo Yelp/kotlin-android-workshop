@@ -1,3 +1,5 @@
 package my.demo.app6.model
 
-data class Business(val name: String, val imageUrl: String?)
+import com.squareup.moshi.Json
+
+data class Business(val name: String, @Json(name = "image_url")val imageUrl: String?)
