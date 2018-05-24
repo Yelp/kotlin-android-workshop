@@ -29,18 +29,16 @@ class MainFragment : Fragment() {
         searchBar.setIconifiedByDefault(false)
         searchBar.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextChange(newText: String?) = true
-            override fun onQueryTextSubmit(query: String?) = true.also {
-                if (query == null) return@also
-
-                businessRepo.search(query).subscribe { list, _ ->
-                    if (list == null) error("Something bad happened!")
-                    if (list.isEmpty()) {
-                        hiWorld.text = getString(R.string.empty_result, query)
-                        return@subscribe
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                if (query == null) return true
+                businessRepo.search(query).subscribe { list, error ->
+                    hiWorld.text = when (list?.total) {
+                        null, 0 -> getString(R.string.empty_result, query)
+                        else -> list.businesses.first().name
                     }
-
-                    hiWorld.text = list.first().name
+                    if (error != null) throw error
                 }
+                return true
             }
         })
     }

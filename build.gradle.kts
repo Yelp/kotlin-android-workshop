@@ -8,6 +8,7 @@ subprojects {
     repositories {
         google()
         jcenter()
+        maven("https://nexus.yelpcorp.com/nexus/content/repositories/releases")
     }
     configurations.all {
         resolutionStrategy {

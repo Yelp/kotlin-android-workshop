@@ -13,6 +13,7 @@ import com.nhaarman.mockito_kotlin.mock
 import io.reactivex.Single
 import my.demo.app5.model.Business
 import my.demo.app5.model.BusinessRepo
+import my.demo.app5.model.BusinessSearchResponse
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.ExternalResource
@@ -26,7 +27,8 @@ class MainActivityTest {
             .around(object : ExternalResource() {
                 override fun before() {
                     BusinessRepo.mock = mock {
-                        on { search(anyString()) } doReturn Single.just(listOf(testBusiness))
+                        on { search(anyString()) }.doReturn(
+                                Single.just(BusinessSearchResponse(1, listOf(testBusiness))))
                     }
                 }
 
