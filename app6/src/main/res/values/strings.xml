@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KDemo6</string>
+    <string name="title_activity_main">KDemo6</string>
+    <string name="greeting">Hello World!</string>
+    <string name="empty_result">No results for \"%1$s\"</string>
+    <string name="query_hint">lunch, shopping</string>
+</resources>

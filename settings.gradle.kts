@@ -4,6 +4,7 @@ include(":app",
         ":app3",
         ":app4",
         ":app5",
+        ":app6",
         ":common")
 
 pluginManagement {
