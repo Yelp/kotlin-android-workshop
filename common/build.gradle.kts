@@ -1,6 +1,9 @@
-plugins { id("com.android.library") }
-apply { from("$rootDir/lib.gradle") }
+plugins {
+    id("com.android.library")
+}
+project.ext["isApp"] = false
+apply(from = "$rootDir/common.gradle")
 
 dependencies {
-    implementation("com.yelp.android.apis:bizapp:1.20180518114341.0")
+    implementation("com.squareup.retrofit2:converter-moshi:2.4.0")
 }

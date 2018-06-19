@@ -1,14 +1,13 @@
 plugins {
-    id("com.android.application") version "3.1.2" apply false
-    id("com.android.library") version "3.1.2" apply false
-    kotlin("android") version "1.2.41" apply false
+    id("com.android.application") version "3.1.3" apply false
+    id("com.android.library") version "3.1.3" apply false
+    kotlin("android") version "1.2.50" apply false
 }
 
 subprojects {
     repositories {
         google()
         jcenter()
-        maven("https://nexus.yelpcorp.com/nexus/content/repositories/releases")
     }
     configurations.all {
         resolutionStrategy {

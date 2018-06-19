@@ -1,3 +1,6 @@
+if (ext.isApp) {
+    apply plugin: 'com.android.application'
+}
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -8,6 +11,9 @@ android {
         targetSdkVersion 27
         versionCode 1
         versionName '1.0'
+        if (project.ext.isApp) {
+            applicationId = "my.demo.${project.name}"
+        }
 
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
     }
@@ -20,11 +26,14 @@ android {
 }
 
 dependencies {
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.41'
-    implementation 'org.jetbrains.kotlin:kotlin-reflect:1.2.41'
+    if (project.ext.isApp) {
+        implementation project(':common')
+    }
+    implementation 'org.jetbrains.kotlin:kotlin-reflect:1.2.50'
     implementation 'io.reactivex.rxjava2:rxjava:2.1.13'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
     implementation 'com.google.guava:guava:25.0-android'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     implementation 'com.android.support:appcompat-v7'
     implementation 'com.android.support:design'
     implementation 'com.android.support:support-v13'
@@ -32,6 +41,7 @@ dependencies {
     implementation 'android.arch.lifecycle:extensions:1.1.1'
     implementation 'androidx.core:core-ktx:0.3'
     implementation 'com.squareup.moshi:moshi:1.6.0'
+    implementation 'com.squareup.moshi:moshi-kotlin:1.6.0'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
     implementation 'com.github.bumptech.glide:glide:3.8.0'
