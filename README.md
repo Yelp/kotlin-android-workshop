@@ -1,34 +1,34 @@
-This repository hosts the coding excercises of a Kotlin Workshop for Android. Basic knowledge of both Android and Java are assumed for people going through this workshop. No prior knowledge of Kotlin is required - the linked workshop presentations, videos and workbook start from the very basic syntax in Kotlin and build from there.
+This repository hosts the coding exercises from a Kotlin Workshop for Android. Basic knowledge of both Android and Java is assumed for anyone participating in this workshop. No prior knowledge of Kotlin is required; the linked presentations, videos, and workbook start from very basic syntax in Kotlin and build from there.
 
-The linked presentations and videos are a recording of a live event held internally at Yelp on May 24th 2018 and may become or already be out of date. If we hold a new event we may update this repository and the recordings. Otherwise updates to this repo are rather unlikely.
+The linked presentations and videos are from a recording of a live event held internally at Yelp on May 24th, 2018, and may already be out of date. If a new event is held, this repository and its recordings may be updated. Otherwise, any updates are rather unlikely.
 
-## Format Of This Repository
+## Format of this Repository
 
-There are a total of 7 apps in this repository. If you follow along with the workshop you are supposed to start from the folder `app` and build your Android app by following the instructions in the video and the workbook. If you struggle to complete an excercise you can simply look in the folder with the corresponding number. For example `app4` contains the Android app that is the result of completing excercises 1-4. Another example of how to use this folder structure is if you are interested in completing only sessions 3 and 6, then you can start from `app2` for completing the excercises in session 3 and start from `app5` to complete the excercises of session 6.
+There are a total of 7 apps in this repository. If you follow along with the workshop, you can start from the folder `app` and build your Android app by following the instructions in the video and workbook. If you struggle to complete an exercise, you can simply look in the folder with the corresponding number. For example, `app4` contains the Android app that is the result of completing exercises 1-4. Alternatively, if you’re interested in completing, for example, only sessions 3 and 6, you can start from `app2` to complete the exercises in session 3, and then start from `app5` to complete the exercises in session 6.
 
-## Format Of The Workshop
+## Format of the Workshop
 
-The workshop was intended as one whole day event. It was split into sessions of about 1 hour each. Each session was about 20 min presentation, 20 min live coding and 20 min antendee coding something relevant to what was presented. Presenters were available during the coding sessions to answer any questions and troubleshoot problems. By the end of the day we built a simple app to show a list of businesses using Yelp's public API.
+The workshop was intended as a one-day event. It was split into sessions of about 1 hour each. Each session roughly consisted of a 20-minute presentation, followed by a 20-minute live coding session, and finally, a 20-minute attendee coding session on a topic relevant to the presentation. Presenters were available during the coding sessions to answer questions or troubleshoot any issues. By the end of the day, we built a simple app that displayed a list of businesses using Yelp's public API.
 
-There is a [workbook][workbook] with everything covered. Here is a list of all the sessions and a brief summary of each session's topic.
+Here’s a [workbook][workbook] with more detailed information on the topic, and below is a list of all sessions and a brief summary of their content.
 
 ## Syllabus
 
-* Part 1 - Basic Syntax and Types - how to create classes, interfaces, functions. At the end you should be able to write a very simple Kotiln class ([presentation][prezi1], [video][video1])
+1. Basic Syntax and Types - how to create classes, interfaces, and functions. At the end you should be able to write a very simple Kotiln class ([presentation][prezi1], [video][video1])
 
-* Part 2 - Constructors and Control Flow - difference between statements and expressions, conditional statements and loops, jumps and qualifiers, primary and secondary constructors and the execution flow when constructing instances ([presentation][prezi2], [video][video2])
+2. Constructors and Control Flow - difference between statements and expressions, conditional statements and loops, jumps and qualifiers, primary and secondary constructors, and execution flow when constructing instances ([presentation][prezi2], [video][video2])
 
-* Part 3 - Functions - operators, inlining, a little bit about generics, named parameters, lambdas and closures, obtaining references to functions and passing them to other functions, higher-order functions ([presentation][prezi3], [video][video3])
+3. Functions - operators, inlining, a little bit about generics, named parameters, lambdas and closures, obtaining references to functions and passing them to other functions, and higher-order functions ([presentation][prezi3], [video][video3])
 
-* Part 4 - Properties and Nullability - java interop, synthetic properties, delegated properties, custom setters and getters, lateinit, ​nullable and non-null properties and optional invocation ([presentation][prezi4], [video][video4])
+4. Properties and Nullability - java interop, synthetic and delegated properties, custom setters and getters, lateinit, ​nullable and non-null properties, and optional invocation ([presentation][prezi4], [video][video4])
 
-* Part 5 - Useful Kotlin Standard Functions - use, let, apply, also, with, isEmpty, orEmpty and some more as well as how to use them and when to use them ([presentation][prezi5], [video][video5])
+5. Useful Kotlin Standard Functions - introduction to `use`, `let`, `apply`, `also`, `with`, `isEmpty`, `orEmpty`, and more, as well as how and when to use them ([presentation][prezi5], [video][video5])
 
-* Part 6 - Kotlin's Collections APIs - mapping, transforming, filtering, aggregating and associating anything you can iterate over like a boss! ([presentation][prezi6], [video][video6])
+6. Kotlin's Collections APIs - mapping, transforming, filtering, aggregating, and associating anything you can iterate over like a boss ([presentation][prezi6], [video][video6])
 
-* Part 7 - How to build DSLs - What are they useful for and how to build them ([presentation][prezi7], [video][video7])
+7. How to Build DSLs - what they’re useful for and how to build them ([presentation][prezi7], [video][video7])
 
-All presentations, videos and the workbook are shared as is in a publicly accessible Google Drive folder. If you'd rather download them and go over them at your own pace [here's a link to the folder][folder with materials].
+All presentations, videos, and the workbook are shared as is in a publicly accessible Google Drive folder. If you'd rather download them and go over them at your own pace, here’s a [link to the folder][folder with materials].
 
 ## License
 

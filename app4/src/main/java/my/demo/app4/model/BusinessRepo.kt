@@ -1,6 +1,6 @@
 package my.demo.app4.model
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import io.reactivex.Single
 import my.demo.common.Factory
 import my.demo.common.Provider

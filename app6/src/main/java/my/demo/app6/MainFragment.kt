@@ -1,8 +1,8 @@
 package my.demo.app6
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.widget.SearchView
+import androidx.fragment.app.Fragment
+import androidx.appcompat.widget.SearchView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,7 +32,7 @@ class MainFragment : Fragment() {
             override fun onQueryTextChange(newText: String?) = true
             override fun onQueryTextSubmit(query: String?): Boolean {
                 if (query == null) return true
-                businessRepo.search(query).subscribe { list, error ->
+                businessRepo.search(query).subscribe { list, _ ->
                     val hasNoResults = (list?.total ?: 0) == 0
                     hiWorld.isVisible = hasNoResults
                     listView.isGone = hasNoResults
