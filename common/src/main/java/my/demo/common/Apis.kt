@@ -2,8 +2,8 @@ package my.demo.common
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import retrofit2.Retrofit
 import okhttp3.OkHttpClient
+import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
 private const val AUTH = "Bearer NQISPs8iEEYN3gqoDkU5lU8ooRG23nSF9134tzyulLhBY6rbEWw87wnI9yg8UdR6QbFLGV17gsmlSS_OiimJWlAVv1Yu1fRvGabZirAYJNFnA3Joh0vmuyEyRU0EW3Yx"

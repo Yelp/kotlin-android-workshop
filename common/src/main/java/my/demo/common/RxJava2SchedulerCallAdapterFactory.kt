@@ -1,11 +1,6 @@
 package my.demo.common
 
-import io.reactivex.Completable
-import io.reactivex.Flowable
-import io.reactivex.Maybe
-import io.reactivex.Observable
-import io.reactivex.Scheduler
-import io.reactivex.Single
+import io.reactivex.*
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import okhttp3.OkHttpClient
@@ -16,7 +11,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import java.lang.reflect.Type
 
 class RxJava2SchedulerCallAdapterFactory internal constructor(
-        okHttpClient: OkHttpClient
+    okHttpClient: OkHttpClient
 ) : CallAdapter.Factory() {
 
     private val subscribeScheduler: Scheduler =
@@ -25,9 +20,9 @@ class RxJava2SchedulerCallAdapterFactory internal constructor(
     private val wrappedFactory: RxJava2CallAdapterFactory = RxJava2CallAdapterFactory.create()
 
     override fun get(
-            returnType: Type,
-            annotations: Array<Annotation>,
-            retrofit: Retrofit
+        returnType: Type,
+        annotations: Array<Annotation>,
+        retrofit: Retrofit
     ): CallAdapter<*, *>? {
         val callAdapter = wrappedFactory.get(returnType, annotations, retrofit) ?: return null
 
@@ -35,7 +30,7 @@ class RxJava2SchedulerCallAdapterFactory internal constructor(
     }
 
     private inner class CallAdapterWrapper<R> internal constructor(
-            private val wrappedAdapter: CallAdapter<R, *>
+        private val wrappedAdapter: CallAdapter<R, *>
     ) : CallAdapter<R, Any> {
 
         override fun responseType(): Type {

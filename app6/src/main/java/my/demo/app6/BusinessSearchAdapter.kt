@@ -1,17 +1,17 @@
 package my.demo.app6
 
-import androidx.annotation.LayoutRes
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.annotation.LayoutRes
+import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import my.demo.app6.model.Business
 
 class BusinessSearchAdapter(
-        val businesses: List<Business>
+    val businesses: List<Business>
 ) : RecyclerView.Adapter<BusinessSearchAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ViewHolder(parent)
     override fun getItemCount() = businesses.size
@@ -20,7 +20,7 @@ class BusinessSearchAdapter(
     }
 
     class ViewHolder(
-            parent: ViewGroup
+        parent: ViewGroup
     ) : RecyclerView.ViewHolder(parent.inflate(R.layout.business_search_result)) {
         val image: ImageView = itemView.findViewById(R.id.image)
         val name: TextView = itemView.findViewById(R.id.name)

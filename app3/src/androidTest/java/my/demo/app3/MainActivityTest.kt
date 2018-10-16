@@ -1,23 +1,25 @@
 package my.demo.app3
 
-import android.support.test.espresso.Espresso.onView
-import android.support.test.espresso.action.ViewActions.pressImeActionButton
-import android.support.test.espresso.action.ViewActions.typeText
-import android.support.test.espresso.assertion.ViewAssertions.matches
-import android.support.test.espresso.matcher.ViewMatchers.withHint
-import android.support.test.espresso.matcher.ViewMatchers.withId
-import android.support.test.espresso.matcher.ViewMatchers.withText
-import android.support.test.rule.ActivityTestRule
+import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.action.ViewActions.pressImeActionButton
+import androidx.test.espresso.action.ViewActions.typeText
+import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
+import androidx.test.espresso.matcher.ViewMatchers.withHint
+import androidx.test.espresso.matcher.ViewMatchers.withId
+import androidx.test.espresso.matcher.ViewMatchers.withText
+import androidx.test.rule.ActivityTestRule
 import org.junit.Rule
 import org.junit.Test
 
 class MainActivityTest {
 
-    @get:Rule val activityRule = ActivityTestRule(MainActivity::class.java)
+    @get:Rule
+    val activityRule = ActivityTestRule(MainActivity::class.java)
 
     @Test
     fun whenStarted_showsHelloWorld() {
-        onView(withId(R.id.hiWorld)).check(matches(withText(R.string.greeting)))
+        onView(withText(R.string.greeting)).check(matches(isDisplayed()))
     }
 
     @Test
