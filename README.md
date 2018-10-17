@@ -30,9 +30,11 @@ Here’s a [workbook][workbook] with more detailed information on the topic, and
 
 All presentations, videos, and the workbook are shared as is in a publicly accessible Google Drive folder. If you'd rather download them and go over them at your own pace, here’s a [link to the folder][folder with materials].
 
-## License
+## Licenses
 
 This Kotlin Workshop exercise repository is licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+
+The Kotlin Workshop presentations, videos and other written materials are licensed under the Creative Commons, Attribute, No Derivatives, Version 3.0 US: https://creativecommons.org/licenses/by-nd/3.0/us/legalcode
 
 [workbook]: https://goo.gl/qUG3es  "Kotlin for Android - Workbook"
 [prezi1]: https://goo.gl/yVa19y "Kotlin for Android - Part 1 - Basics (Presentation)"
