@@ -28,8 +28,6 @@ Here’s a [workbook][workbook] with more detailed information on the topic, and
 
 7. How to Build DSLs - what they’re useful for and how to build them ([presentation][prezi7], [video][video7])
 
-All presentations, videos, and the workbook are shared as is in a publicly accessible Google Drive folder. If you'd rather download them and go over them at your own pace, here’s a [link to the folder][folder with materials].
-
 ## Licenses
 
 This Kotlin Workshop exercise repository is licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
@@ -37,18 +35,17 @@ This Kotlin Workshop exercise repository is licensed under the Apache License, V
 The Kotlin Workshop presentations, videos and other written materials are licensed under the Creative Commons, Attribute, No Derivatives, Version 3.0 US: https://creativecommons.org/licenses/by-nd/3.0/us/legalcode
 
 [workbook]: https://goo.gl/qUG3es  "Kotlin for Android - Workbook"
-[prezi1]: https://goo.gl/yVa19y "Kotlin for Android - Part 1 - Basics (Presentation)"
+[prezi1]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-basics-part-1-of-7-120029125 "Kotlin for Android - Part 1 - Basics (Presentation)"
 [video1]: https://goo.gl/TodGcs "Kotlin for Android - Part 1 - Basics (Video)"
-[prezi2]: https://goo.gl/E5VYra "Kotlin for Android - Part 2 - Constructors and Control Flow (Presentation)"
+[prezi2]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-constructors-and-control-flow-part-2-of-7 "Kotlin for Android - Part 2 - Constructors and Control Flow (Presentation)"
 [video2]: https://goo.gl/SYNhgM "Kotlin for Android - Part 2 - Constructors and Control Flow (Video)"
-[prezi3]: https://goo.gl/VnANmU "Kotlin for Android - Part 3 - Functions (Presentation)"
+[prezi3]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-functions-part-3-of-7 "Kotlin for Android - Part 3 - Functions (Presentation)"
 [video3]: https://goo.gl/uexeNe "Kotlin for Android - Part 3 - Functions (Video)"
-[prezi4]: https://goo.gl/vHwgi2 "Kotlin for Android - Part 4 - Properties (Presentation)"
+[prezi4]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-properties-part-4-of-7 "Kotlin for Android - Part 4 - Properties (Presentation)"
 [video4]: https://goo.gl/fxdxro "Kotlin for Android - Part 4 - Properties (Video)"
-[prezi5]: https://goo.gl/11UiT1 "Kotlin for Android - Part 5 - std-lib (Presentation)"
+[prezi5]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-useful-kotlin-standard-functions-part-5-of-7 "Kotlin for Android - Part 5 - std-lib (Presentation)"
 [video5]: https://goo.gl/T5RrcZ "Kotlin for Android - Part 5 - std-lib (Video)"
-[prezi6]: https://goo.gl/sfvYPh "Kotlin for Android - Part 6 - Collections (Presentation)"
+[prezi6]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-collections-apis-part-6-of-7 "Kotlin for Android - Part 6 - Collections (Presentation)"
 [video6]: https://goo.gl/DoWYj8 "Kotlin for Android - Part 6 - Collections (Video)"
-[prezi7]: https://goo.gl/77Zup1 "Kotlin for Android - Part 7 - DSLs (Presentation)"
+[prezi7]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-how-to-build-dsls-part-7-of-7 "Kotlin for Android - Part 7 - DSLs (Presentation)"
 [video7]: https://goo.gl/wzx3cy "Kotlin for Android - Part 7 - DSLs (Video)"
-[folder with materials]: https://goo.gl/F1wEPJ "Kotlin for Android - Drive Folder"
