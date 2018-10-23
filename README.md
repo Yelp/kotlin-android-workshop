@@ -65,7 +65,7 @@ The Kotlin Workshop presentations, videos and other written materials are licens
 Creative Commons, Attribute, No Derivatives, Version 3.0 US:
 https://creativecommons.org/licenses/by-nd/3.0/us/legalcode
 
-[workbook]: https://goo.gl/qUG3es  "Kotlin for Android - Workbook"
+[workbook]: https://github.com/Yelp/kotlin-android-workshop/blob/master/Kotlin%20For%20Android%20-%20Workbook.pdf  "Kotlin for Android - Workbook"
 [prezi1]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-basics-part-1-of-7-120029125 "Kotlin for Android - Part 1 - Basics (Presentation)"
 [video1]: https://www.youtube.com/embed/5Zb_jfSVSU4?rel=0 "Kotlin for Android - Part 1 - Basics (Video)"
 [prezi2]: https://www.slideshare.net/GeshMarkov/kotlin-for-android-constructors-and-control-flow-part-2-of-7 "Kotlin for Android - Part 2 - Constructors and Control Flow (Presentation)"
