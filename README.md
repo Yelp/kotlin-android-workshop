@@ -32,7 +32,7 @@ all sessions and a brief summary of their content.
 ## Syllabus
 
 1. Basic Syntax and Types - how to create classes, interfaces, and functions. At the end you should
-be able to write a very simple Kotiln class ([presentation][prezi1], [video][video1])
+be able to write a very simple Kotlin class ([presentation][prezi1], [video][video1])
 
 2. Constructors and Control Flow - difference between statements and expressions, conditional
 statements and loops, jumps and qualifiers, primary and secondary constructors, and execution flow
@@ -42,8 +42,8 @@ when constructing instances ([presentation][prezi2], [video][video2])
 closures, obtaining references to functions and passing them to other functions, and higher-order
 functions ([presentation][prezi3], [video][video3])
 
-4. Properties and Nullability - java interop, synthetic and delegated properties, custom setters and
-getters, lateinit, ​nullable and non-null properties, and optional invocation
+4. Properties and Nullability - Java interop, synthetic and delegated properties, custom setters and
+getters, `lateinit`, ​nullable and non-null properties, and optional invocation
 ([presentation][prezi4], [video][video4])
 
 5. Useful Kotlin Standard Functions - introduction to `use`, `let`, `apply`, `also`, `with`,
